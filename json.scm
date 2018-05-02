@@ -1,4 +1,4 @@
-;;; (json) --- Guile JSON implementation.
+;;; (chez-json json) --- Guile JSON implementation.
 
 ;; Copyright (C) 2013 Aleix Conchillo Flaque <aconchillo@gmail.com>
 ;;
@@ -25,7 +25,7 @@
 
 ;;; Code:
 
-(library (json json)
+(library (chez-json json)
   (export json
           scm->json
           scm->json-string
@@ -33,9 +33,9 @@
           json-string->scm
           json-parser?
           json-parser-port)
-  (import (json builder)
-          (json parser)
-          (json syntax)))
+  (import (chez-json builder)
+          (chez-json parser)
+          (chez-json syntax)))
 
   ;(define-syntax re-export-modules
   ;  (syntax-rules ()

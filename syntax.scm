@@ -1,4 +1,4 @@
-;;; (json syntax) --- Guile JSON implementation.
+;;; (chez-json syntax) --- Guile JSON implementation.
 
 ;; Copyright (C) 2013 Aleix Conchillo Flaque <aconchillo@gmail.com>
 ;;
@@ -25,7 +25,7 @@
 
 ;;; Code:
 
-(library (json syntax)
+(library (chez-json syntax)
   (export json)
   (import (chezscheme))
 

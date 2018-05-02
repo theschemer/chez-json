@@ -1,4 +1,4 @@
-;;; (json parser) --- Guile JSON implementation.
+;;; (chez-json parser) --- Guile JSON implementation.
 
 ;; Copyright (C) 2013 Aleix Conchillo Flaque <aconchillo@gmail.com>
 ;;
@@ -26,7 +26,7 @@
 ;;; Code:
 
 #!chezscheme
-(library (json parser)
+(library (chez-json parser)
   (export json->scm
           json-string->scm
           json-parser?
