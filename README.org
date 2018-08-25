@@ -1,4 +1,4 @@
-* chez-json
+
 
 fork from <https://github.com/aconchillo/guile-json>
 
