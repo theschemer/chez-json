@@ -1,4 +1,4 @@
-(("name" . "guile-json")
+(("name" . "chez-json")
 ("version" . "0.5.1")
 ("description" . "a JSON module for Chez")
 ("keywords"
