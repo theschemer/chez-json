@@ -25,7 +25,7 @@
 
 ;;; Code:
 
-(library (json json)
+(library (chez-json json)
   (export json
           scm->json
           scm->json-string
