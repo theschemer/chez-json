@@ -33,9 +33,9 @@
           json-string->scm
           json-parser?
           json-parser-port)
-  (import (json builder)
-          (json parser)
-          (json syntax)))
+  (import (chez-json builder)
+          (chez-json parser)
+          (chez-json syntax)))
 
   ;(define-syntax re-export-modules
   ;  (syntax-rules ()

@@ -26,7 +26,7 @@
 ;;; Code:
 
 #!chezscheme
-(library (json parser)
+(library (chez-json parser)
   (export json->scm
           json-string->scm
           json-parser?

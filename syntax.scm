@@ -25,7 +25,7 @@
 
 ;;; Code:
 
-(library (json syntax)
+(library (chez-json syntax)
   (export json)
   (import (chezscheme))
 

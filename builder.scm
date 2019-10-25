@@ -26,7 +26,7 @@
 
 ;;; Code:
 
-(library (json builder)
+(library (chez-json builder)
   (export scm->json
           scm->json-string)
   (import (chezscheme))
