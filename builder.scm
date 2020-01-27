@@ -1,4 +1,4 @@
-;;; (json builder) --- Guile JSON implementation.
+;;; (chez-json builder) --- Guile JSON implementation.
 
 ;; Copyright (C) 2013 Aleix Conchillo Flaque <aconchillo@gmail.com>
 ;; Copyright (C) 2015,2016 Jan Nieuwenhuizen <janneke@gnu.org>
@@ -26,7 +26,7 @@
 
 ;;; Code:
 
-(library (json builder)
+(library (chez-json builder)
   (export scm->json
           scm->json-string)
   (import (chezscheme))
